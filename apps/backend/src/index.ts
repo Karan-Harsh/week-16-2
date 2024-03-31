@@ -1,5 +1,7 @@
 import express from "express";
+import { VALUE } from "@repo/common/config";
 
+console.log(VALUE);
 const app = express();
 
 app.get("/", (req: any, res: any) => {
